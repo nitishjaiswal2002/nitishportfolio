@@ -52,14 +52,16 @@ src={glassesimoji}
 initial={{top:'-4%',left:'74%'}}
 whileInView={{left:'68%'}}
 transition={transition}
-style={{top:'-4%', left:"68%"}}>
+style={{top:'-4%', left:"68%"}}
+className='floating-div'>
 <FloatingDiv image={crown} txt1='Web' txt2='Developer'/>
 </motion.div>
 <motion.div 
 initial={{top:'9rem',left:'18rem'}}
 whileInView={{left:'0rem'}}
 transition={transition}
-style={{top:'18rem', left:'0px'}}>
+style={{top:'18rem', left:'0px'}}
+className='floating-div'>
   <FloatingDiv image={thumbup} txt1='Best Design' txt2='Award'/>
 </motion.div>
 {/*blurr divs*/}
